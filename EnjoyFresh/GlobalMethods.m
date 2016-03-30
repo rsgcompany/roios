@@ -305,7 +305,7 @@ return  @{NSFontAttributeName:[UIFont fontWithName:Regular size:16.0f]};
     NSDateFormatter *df1 = [[NSDateFormatter alloc] init];
 
     [df1 setFormatterBehavior:NSDateFormatterBehavior10_4];
-    [df1 setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    [df1 setDateFormat:@"yyyy-MM-dd"];
     
     NSDate *date = [df1 dateFromString:mydateStg];
     [df1 setDateFormat:@"EEEE, MMMM, d.  yyyy"];
